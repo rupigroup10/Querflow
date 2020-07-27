@@ -1,0 +1,142 @@
+
+.leaflet-interactive{
+  opacity: 1;
+  
+  transition:  fill-opacity 2s,fill 2s;
+
+ 
+}
+
+
+
+ @keyframes myfadeIn {
+  0%{opacity:0;}
+  100% { opacity: 1; }
+} 
+@keyframes myfadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@media (min-width:480px) {
+  .Compare {
+    display: flex;
+    
+    /* background-color: red; */
+    flex-direction: row;
+    }
+    .Recommendation{
+     display:'flex'
+    }
+    
+}
+
+@media (min-width:1000px) { 
+  
+  .Compare {
+
+  display:inline-block;
+  flex-direction: column;
+  background-color: white;
+ 
+}
+.Recommendation{
+  display:'inline-block'
+ }
+
+ }
+.TableComp{
+  width:60%
+}
+.ChountryChart{
+  width:40%
+}
+
+ @media only screen and (max-width: 1000px) {
+  .bottomDiv{
+   width:100% !important;
+   display: flex !important;
+   flex-direction: column !important ;
+  }
+  .TableComp{
+    width:95%
+  }
+  .ChountryChart{
+    width:95%
+  }
+  .logoImg{
+    position: absolute;
+    padding-top: 15px;
+    height:10vh !important
+  }
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .pathcss:hover{
+  -webkit-transition: fill-opacity 5s;
+    transition: fill-opacity 5s;
+    fill-opacity: 1;
+    stroke:yellow;
+}  */
+
+/* .leaflet-container path{ 
+  transition: all 5s;
+
+}
+.leaflet-container:active path{ 
+  transition: all 5s;
+
+}
+
+
+
+.pathcss{
+  -webkit-transition: fill-opacity 1s;
+  transition: fill-opacity 1s;
+}
+.leaflet-container path:hover{
+  -webkit-transition: fill-opacity 1s;
+    transition: fill-opacity 1s;
+    fill-opacity: 1;
+    stroke:yellow;
+} */
