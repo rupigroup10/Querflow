@@ -332,7 +332,7 @@ export default class Graph extends Component {
                     </div>
                     <Carousel bsPrefix={'carousel1'} interval={null} wrap={false}>
                         <Carousel.Item >
-                            <div id='chart' style={{ height: "80vh", width: "80vw", display: "flex", flexWrap: 'wrap' }}>
+                            <div id='chart' style={{ height: "80vh", width: "79vw", display: "flex", flexWrap: 'wrap' }}>
                                 <div id='leftChart' style={{ boxShadow: '0 0px 5px', margin: '2px', padding: 0 }}>
                                     <div> <GraphComp height={'50vh'} width={this.state.width} type={this.state.ChartArray.leftChart.bigChart[0]} data={this.state.Data} kind={'bigChart'}></GraphComp></div>
                                     <div style={{ height: '29vh', display: "flex", flexDirection: 'row', justifyItems: 'center', justifyContent: 'space-between' }}>

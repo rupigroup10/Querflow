@@ -130,9 +130,9 @@
 
 .carousel1-control-prev {
     left: -20px;
-    top:47.5%;
-    background-color: red;
-    height:3vh;
+    top:45%;
+    background-color: gray!important;
+    height:10vh;
     width:20px;
     transition: all 1s;
    
@@ -141,11 +141,11 @@
 }
 
 .carousel1-control-next { 
-   
-    top:47.5%;
-    right:0px;
-    background-color: green;
-    height:3vh;
+   position: absolute!important;
+    top:45%;
+    right:-12px;
+    background-color: gray;
+    height:10vh;
     width:20px;
     transition: all 1s;
 
@@ -164,6 +164,7 @@
 
 .carousel1-control-prev-icon {
 	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e")
+
 }
 
 .carousel1-control-next-icon {
@@ -262,22 +263,28 @@ flex-direction: column !important;
 		top:0!important;
 		width:81% !important;
 		padding-bottom: 40px!important;
+		height:10vh!important
 	}
 
 	.Compare{
 /* margin-left: 25%; */
-
 		width: 80% !important ;
 		padding-bottom: 20px;
+
+		
+		z-index:  2!important;
+		overflow: hidden !important;
 	}
 	.makeStyles-root-1{
 		left:10%!important;
 		padding-left:  5px!important;
 transform: none!important;
+
 	}
 	.MuiAutocomplete-root{
 		
-		width:100%
+		width:100%;
+
 
 	}
 	/* .countrytech{

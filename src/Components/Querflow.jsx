@@ -121,7 +121,7 @@ export default class Querflow extends Component {
                     text='Loading your content...'
                 >
                     <Router className="App" >
-                        <div style={{ width: '100%', position: 'fixed', zIndex: 2, overflow: 'hidden', background: 'rgb(255,255,255, 0.9)' }} >
+                        <div style={{ width: '100%', position: 'fixed', zIndex: 5, overflow: 'hidden', background: 'rgb(255,255,255, 0.9)' }} >
                             <Navbar></Navbar>
                         </div>
                         <div style={{ paddingTop: '9vh' }}>
